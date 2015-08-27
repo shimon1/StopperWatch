@@ -13,6 +13,7 @@
 		9C126F681B00200600CEEC51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C126F671B00200600CEEC51 /* Images.xcassets */; };
 		9C126F6B1B00200600CEEC51 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C126F691B00200600CEEC51 /* LaunchScreen.xib */; };
 		9C126F771B00200600CEEC51 /* StopperWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C126F761B00200600CEEC51 /* StopperWatchTests.swift */; };
+		9C9F59E81B0D145300D508BF /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9F59E71B0D145300D508BF /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		9C126F701B00200600CEEC51 /* StopperWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopperWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C126F751B00200600CEEC51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C126F761B00200600CEEC51 /* StopperWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopperWatchTests.swift; sourceTree = "<group>"; };
+		9C9F59E71B0D145300D508BF /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				9C126F601B00200600CEEC51 /* AppDelegate.swift */,
+				9C9F59E71B0D145300D508BF /* TableViewController.swift */,
 				9C126F621B00200600CEEC51 /* ViewController.swift */,
 				9C126F641B00200600CEEC51 /* Main.storyboard */,
 				9C126F671B00200600CEEC51 /* Images.xcassets */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C126F631B00200600CEEC51 /* ViewController.swift in Sources */,
+				9C9F59E81B0D145300D508BF /* TableViewController.swift in Sources */,
 				9C126F611B00200600CEEC51 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +409,7 @@
 				9C126F7C1B00200600CEEC51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C126F7D1B00200600CEEC51 /* Build configuration list for PBXNativeTarget "StopperWatchTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				9C126F7F1B00200600CEEC51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
